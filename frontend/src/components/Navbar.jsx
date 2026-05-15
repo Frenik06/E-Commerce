@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="text-2xl font-bold text-primary-600 dark:text-primary-400">
-            LuxeStore
+            MyStore
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">

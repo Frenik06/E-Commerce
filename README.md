@@ -189,3 +189,47 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 **Frenik Mangukiya**  
 [GitHub](https://github.com/Frenik06)
+
+## Screenshots
+
+### Home Page
+Modern and responsive homepage featuring hero banners, featured products, categories, promotional sections, and smooth animations.
+
+![Home Page](./screenshots/home.png)
+
+---
+
+### Product Listing Page
+Interactive product listing page with category filters, search functionality, sorting options, and responsive product cards.
+
+![Products Page](./screenshots/prods.png)
+
+---
+
+### Product Details Page
+Detailed product view with image gallery, pricing, ratings, description, and add-to-cart functionality.
+
+![Product Details](./screenshots/produ_details.png)
+
+---
+
+### Shopping Cart
+Responsive shopping cart with quantity management, remove items feature, and dynamic total price calculation.
+
+![Cart Page](./screenshots/cart.png)
+
+---
+
+### Authentication Pages
+Modern login and registration pages with clean UI and form validation.
+
+![Login Page](./screenshots/register.png)
+![Login Page](./screenshots/login.png)
+
+---
+
+### Responsive Design
+Fully responsive layout optimized for desktop, tablet, and mobile devices.
+
+![Responsive Design](./screenshots/responsive1.png)
+![Responsive Design](./screenshots/responsive2.png)
