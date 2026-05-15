@@ -209,7 +209,7 @@ Interactive product listing page with category filters, search functionality, so
 ### Product Details Page
 Detailed product view with image gallery, pricing, ratings, description, and add-to-cart functionality.
 
-![Product Details](./screenshots/produ_details.png)
+![Product Details](./screenshots/prod_details.png)
 
 ---
 
@@ -231,5 +231,5 @@ Modern login and registration pages with clean UI and form validation.
 ### Responsive Design
 Fully responsive layout optimized for desktop, tablet, and mobile devices.
 
-![Responsive Design](./screenshots/responsive1.png)
-![Responsive Design](./screenshots/responsive2.png)
+![Responsive Design](./screenshots/responsive_1.png)
+![Responsive Design](./screenshots/responsive_2.png)
