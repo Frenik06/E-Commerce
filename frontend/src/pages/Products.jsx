@@ -1,21 +1,29 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useShop } from '../context/ShopContext';
 import { Search, Star, Filter } from 'lucide-react';
+import { useLocation } from 'react-router-dom';
 
 const Products = () => {
   const { products, loading } = useShop();
   const [searchTerm, setSearchTerm] = useState('');
   const [category, setCategory] = useState('All');
+  const location = useLocation();
 
-  const categories = ['All', ...new Set(products.map(p => p.category))];
+  let categories = ['All', ...new Set(products.map(p => p.category))];
 
   const filteredProducts = products.filter(product => {
     const matchesSearch = product.title.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesCategory = category === 'All' || product.category === category;
     return matchesSearch && matchesCategory;
   });
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const cat = params.get('category') || 'All';
+    setCategory(cat);
+  }, [location.search]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
