@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Full-Stack Modern E-Commerce Website
 
 This is a visually stunning, responsive, and professional e-commerce platform designed for a placement portfolio.
@@ -50,3 +51,6 @@ This is a visually stunning, responsive, and professional e-commerce platform de
 ## Deployment Guidance
 - **Frontend:** Build the project using `npm run build`. Deploy the `dist` folder to platforms like Vercel, Netlify, or GitHub Pages.
 - **Backend & Database:** Upload the PHP files to a shared hosting provider (like Hostinger, GoDaddy, or Heroku with PHP support). Import the `database.sql` to your remote MySQL server and update `backend/config/db.php` with the new remote credentials.
+=======
+# E-Commerce
+>>>>>>> ea62747e32320911e58bba3f41fb723853a1b060
